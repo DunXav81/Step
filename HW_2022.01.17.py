@@ -19,7 +19,7 @@ print ('\nВведите шесть любых целых чисел\n')
 set_of_numbers = []
 
 while number_of_element <= 6:
-    element = input('Введите новое число: ')
+    element = int(input('Введите новое число: '))
     set_of_numbers.append(element)
     print ('Вы ввели элемент № ', number_of_element)
     number_of_element += 1

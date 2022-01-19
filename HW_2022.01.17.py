@@ -16,13 +16,13 @@
 
 number_of_element = 1
 print ('\nВведите шесть любых целых чисел\n')
-line = []
+set_of_numbers = []
 
 while number_of_element <= 6:
     element = input('Введите новое число: ')
-    line.append(element)
+    set_of_numbers.append(element)
     print ('Вы ввели элемент № ', number_of_element)
     number_of_element += 1
 
-print ('\nВы ввели все шесть чисел: ', line)
+print ('\nВы ввели все шесть чисел: ', set_of_numbers)
 

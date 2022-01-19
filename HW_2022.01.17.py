@@ -26,3 +26,6 @@ while number_of_element <= 6:
 
 print ('\nВы ввели все шесть чисел:\n', set_of_numbers)
 
+set_of_numbers.sort()
+print('\nРасположим числа по возрастанию:\n', set_of_numbers)
+

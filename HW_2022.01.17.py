@@ -14,4 +14,15 @@
 Вывести на экран их в возрастающем порядке
 '''
 
-r =[33, 45, 66, 109, 100]
+number_of_element = 1
+print ('\nВведите шесть любых целых чисел\n')
+line = []
+
+while number_of_element <= 6:
+    element = input('Введите новое число: ')
+    line.append(element)
+    print ('Вы ввели элемент № ', number_of_element)
+    number_of_element += 1
+
+print ('\nВы ввели все шесть чисел: ', line)
+

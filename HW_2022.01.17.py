@@ -24,5 +24,5 @@ while number_of_element <= 6:
     print ('Вы ввели элемент № ', number_of_element)
     number_of_element += 1
 
-print ('\nВы ввели все шесть чисел: ', set_of_numbers)
+print ('\nВы ввели все шесть чисел:\n', set_of_numbers)
 
